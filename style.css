@@ -1,0 +1,46 @@
+body{
+
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-title{
+color:#181818;
+font-family: "Open Sans";
+font-size: 45px;
+font-weight: 800;
+}
+
+.letter-colour{
+    color: #014579;
+}
+.primary-btn{
+color:#FFFFFF;
+background-color: #0b3f79f6;
+font-size: 20px;
+font-weight: 700;
+border-radius: 5px;
+border: 0;
+padding: 18px 35px;
+}
+.primary-btn a{
+    color:#FFFFFF;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+
+nav li{
+    margin-right: 50px;
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #474747;
+}

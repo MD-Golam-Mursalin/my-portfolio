@@ -46,7 +46,7 @@ nav li a{
     color: #474747;
 }
 .header{
-    background-color:#FFF8F3;
+    background:#bad2fe55;
     background-image: url("images/header_bg.png"),url("images/developer.png");
     background-repeat: no-repeat;
     background-position: bottom right,left;
@@ -93,7 +93,7 @@ main{
     margin-top: 130px;
     padding: 130px 70px;
     border-radius: 10px;
-    background: #FFF8F3;
+    background:#eaecf3;
     margin-bottom: 130px;
 }
 
@@ -204,4 +204,40 @@ main{
     margin-top: 50px;
     text-align: center;
     margin-bottom: 130px;
+}
+
+footer{
+    background-color:#afadff55;
+    display: flex;
+    gap:100px;
+    
+    padding: 130px 200px;
+}
+
+.social-link a{
+    margin-right: 18px;
+}
+
+.footer-column{
+    width:50%;
+}
+
+.footer-description{
+color: rgb(71, 71, 71);
+line-height: 28px;
+margin-bottom: 20px;
+}
+
+.footer-title{
+    text-align: left;
+}
+.contact input[type="text"],textarea,input[type="email"]{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 0;
+    background: rgb(255, 255, 255);
+    color: rgb(117, 117, 117);
 }
